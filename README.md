@@ -20,6 +20,8 @@ In the same directory copy `default.AwsConfig.json` to `AwsConfig.json`:
 $ cp default.AwsConfig.json AwsConfig.json
 ```
 
+Inside `/public` folder create a folder and name it `uploads`.
+
 Inside `AwsConfig.json` change the `accessKeyId` and `secretAccessKey` property  to your AWS IAM user credentials. This step is needed to establish connection with DynamoDB.
 
 Fetch all dependencies in the root folder of your app by running:
