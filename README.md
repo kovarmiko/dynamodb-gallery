@@ -8,16 +8,21 @@ To start, please clone this repo.
 
 In the `/public` directory create a folder named `uploads`.
 
-Inside `/config` directory, copy `default.config.js` to  `./config.js` with:
+Inside `/config` directory, copy `default.config.js` to  `config.js` with:
 
 ```sh
-$ cp default.config.js ./config.js
+$ cp default.config.js config.js
 ```
 
-Inside `config.js` change the `database` property  to resource path of your mongoDB database. If you don't have one, you can create one free [here](https://mlab.com/).
+In the same directory copy `default.AwsConfig.json` to `AwsConfig.json`:
+
+```sh
+$ cp default.AwsConfig.json AwsConfig.json
+```
+
+Inside `AwsConfig.json` change the `accessKeyId` and `secretAccessKey` property  to your AWS IAM user credentials. This step is needed to establish connection with DynamoDB.
 
 Fetch all dependencies in the root folder of your app by running:
-
 ```sh
 $ npm install
 ```
@@ -27,5 +32,5 @@ $ npm start
 ```
 The process will listen at:
 ```sh
-localhost:3000
+localhost:8081
 ```
