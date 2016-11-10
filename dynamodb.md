@@ -90,7 +90,7 @@ If you are thinking about a coffee break, this is the right moment! The process 
 
 If the process is successful, you should see the following screen. The URL in the brackets next to the Environment ID takes you to your application. 
 
-However, clicking on that oftentimes retunrs nothing other than a server error. Try it to see for yourself.
+However, clicking on that oftentimes returns nothing other than a server error. Try it to see for yourself.
 
 To address this problem, we need to configure the site. In your environment click the "Configuration tab" as the below picture indicates.
 
