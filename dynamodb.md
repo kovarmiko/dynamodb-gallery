@@ -88,11 +88,11 @@ Make sure to select Node.js for platform inside the select box. For application 
 
 If you are thinking about a coffee break, this is the right moment! The process will complete in about 5 minutes.
 
-If the process is successful, you should see the following screen. The highlighted url is where your application lives. However, clicking on that oftentimes retunrs nothing other than a server error. Try it to see for yourself.
+If the process is successful, you should see the following screen. The URL in the brackets next to the Environment ID takes you to your application. 
 
-![img12](https://github.com/kovarmiko/dynamodb-gallery/blob/master/mdimages/img12.png?raw=true "Image 12")
+However, clicking on that oftentimes retunrs nothing other than a server error. Try it to see for yourself.
 
-To fix this problem, we need to configure the site. In your environment click the "Configuration tab" as the below picture indicates.
+To address this problem, we need to configure the site. In your environment click the "Configuration tab" as the below picture indicates.
 
 ![img13](https://github.com/kovarmiko/dynamodb-gallery/blob/master/mdimages/img13.png?raw=true "Image 13")
 
